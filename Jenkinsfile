@@ -7,7 +7,7 @@ pipeline {
 stages {
   stage('Checkout') {
     steps {
-      git branch: 'main', credentialsId: 'metropolia', url: 'https://github.com/VladimirPiniazhin/FarToCel.git/'
+      git branch: 'main', credentialsId: 'metropolia', url: 'https://github.com/VladimirPiniazhin/ClassCalc.git/'
 
       }
     }
